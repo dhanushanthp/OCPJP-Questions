@@ -22,6 +22,10 @@ public class Question20 extends Base {
 	public static void main(String[] arg) {
 		Base b = new Question20();
 		Vehicle v = new Base().method(3);
+		/**
+		 * We can convert vehicle to car and 
+		 * 
+		 */
 		Car c = b.method(3);
 	}
 }

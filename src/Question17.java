@@ -11,7 +11,10 @@ class Parent {
 }
 
 public class Question17 extends Parent {
-	// This is not working
+	/**
+	 * We can't do this because int is primitive type 
+	 * 
+	 */
 	int test(int i) {
 		System.out.println("Parent(int)");
 		return 0;
